@@ -167,3 +167,433 @@
   }
 
 
+
+
+
+  .whychoosehospital-section{
+    width: 100%;
+    height: 100vh;
+    border-color: white;
+    padding-top: 250px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .whyhead{
+    font-family: Cairo;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 85px;
+    text-align: center;
+    
+  }
+  
+  .whyhead span {
+    color: #f98b00; 
+  }
+  
+  .whypara{
+    font-family: Cairo;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    
+  }
+  .whysectionfsthead{
+    font-family: Cairo;
+font-size: 22px;
+font-weight: 500;
+line-height: 104px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+  
+  
+  .card {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardmiddile{
+  width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.icon-container {
+  width: 120px;
+  height: 120px;
+    position: relative;
+    display: inline-block;
+    background-color: #e5f6ff;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon-container::before {
+    content: '04';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.icon-container img {
+    width: 80px;
+    height: 80px;
+}
+
+.label {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.depsection{
+  width: 100%;
+  height: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.dephead{
+  font-family: Cairo;
+font-size: 22px;
+font-weight: 500;
+text-align: center;
+
+}
+.dephead2{
+  font-family: Cairo;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  
+}
+
+.cardcontainerdep{
+  width: 1300px;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.depcard{
+  width: 391px;
+  height: 509px;
+  border-radius: 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.depcard h3{
+  margin-top: 20px;
+}
+
+.depcard img{
+  width: 100%;
+  height: 441px;
+  border-top-right-radius: 49px;
+  border-top-left-radius: 49px;
+
+}
+
+.depbtn{
+  width: 211px;
+  height: 65.18px;
+  background-color: #46BB3A;
+  border-radius: 45.29px;
+  border: none;
+  color: white;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagesectionnurse {
+  width: 100%;
+  height: 656px;
+  background: 
+    linear-gradient(to right, grey, transparent), 
+    url('./Assets/nursing-home-worker-helping-patient 1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.imagesectnheading{
+font-size: 45px;
+font-weight: 700;
+line-height: 73px;
+text-align: left;
+color: white;
+
+}
+
+.imagesection-content{
+  width: 1090px;
+  height: 656px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagesectnbtn{
+  width: 211px;
+height: 65.18px;
+background-color: #46BB3A;
+border-radius: 45.29px;
+border: none;
+color: white;
+font-size: 21px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 390px;
+}
+
+
+
+
+
+
+  @media screen and (max-width: 560px) {
+    .landimag{
+      display: none;
+    }
+
+    .writing-content{
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left:0px;
+      padding: 20px;
+  }
+
+  .paradescrption {
+    font-family: "Cairo", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    color: #62676E;
+}
+
+.Walkingintext {
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+.lamding-buttons {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.bookappoinmentbtn {
+  width: 293px;
+  height: 65px;
+  border-radius: 45.29px;
+  color: #20222A;
+  border: none;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+.making-title {
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 85px;
+  color: white;
+}
+.making-connection-section{
+  width: 100%;
+  height: auto;
+  background: linear-gradient(180deg, #043A53 0%, #043B55 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  gap: 0px;
+}
+.stat-item {
+  font-size: 30px;
+}
+.stat-item span {
+  display: block;
+  font-size:70px;
+  font-weight: 600;
+  line-height: 104px;
+  color: #4fd082;
+}
+ .stat-item h4{
+  font-size:22px;
+  font-weight: 500;
+  line-height: 104px;
+  color: white;
+ }
+
+
+.stat-item:nth-child(1) span {
+  color: #4fd082;
+}
+.stat-item:nth-child(2) span {
+  color: #ffba00;
+}
+.stat-item:nth-child(3) span {
+  color: #4bb7e1;
+}
+.stat-item:nth-child(4) span {
+  color: #f17076;
+}
+
+
+.aboutusbtn{
+  width: 211px;
+  height: 65.18px;
+  color: black;
+  border-radius: 45.29px;
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardmiddile {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.whychoosehospital-section{
+  width: 100%;
+  height: auto;
+  border-color: white;
+  padding-top: 250px;
+}
+
+.depsection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.imagesection-content {
+  width: 100%;
+  height: 656px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.imagesectnheading{
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 73px;
+  text-align: left;
+  color: white;
+  
+  }
+  
+  
+  .imagesectnbtn{
+    width: 161px;
+  height: 65.18px;
+  background-color: #46BB3A;
+  border-radius: 45.29px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  }
+
+
+
+  }
+  
+
