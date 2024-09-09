@@ -166,12 +166,13 @@
 /* making connection section */
 .making-connection-section{
     width: 100%;
-    height: 1056px;
+    height: auto;
     background: linear-gradient(180deg, #043A53 0%, #043B55 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 .making-title{
@@ -241,6 +242,8 @@
     font-weight: 600;
   }
 
+  
+
 
 
 
@@ -249,7 +252,7 @@
     width: 100%;
     height: auto;
     border-color: white;
-    padding-top: 250px;
+    padding-top: 20px;
   }
 
   .container {
@@ -363,38 +366,38 @@ line-height: 104px;
     font-weight: bold;
 }
 
-.depsection{
+.dep-section{
   width: 100%;
-  height: 1400px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 90px;
 }
 
 .dephead{
-  font-family: Cairo;
 font-size: 22px;
 font-weight: 500;
+line-height: 104px;
+text-align: center;
+}
+
+.dephead2{
+font-size: 45px;
+font-weight: 700;
+line-height: 85px;
 text-align: center;
 
 }
-.dephead2{
-  font-family: Cairo;
-  font-size: 45px;
-  font-weight: 700;
-  text-align: center;
-  
-}
 
 .cardcontainerdep{
-  width: 1300px;
-  height: 700px;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
+  align-items: center;
+  padding: 10px 300px;
 }
-
 .depcard{
   width: 391px;
   height: 509px;
@@ -416,7 +419,7 @@ text-align: center;
 
 }
 
-.depbtn{
+.viewmorebtndepsection{
   width: 211px;
   height: 65.18px;
   background-color: #46BB3A;
@@ -427,7 +430,9 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 35px 0px;
 }
+
 
 .imagesectionnurse {
   width: 100%;
@@ -1010,13 +1015,51 @@ button {
   padding-top: 250px;
 }
 
-.depsection {
+.cardcontainerdep {
   width: 100%;
-  height: auto;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  padding: 20px;
+}
+
+.depcard {
+  width: 291px;
+  height: 309px;
+  border-radius: 49px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 90px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardcontainerdep {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  padding: 20px;
+}
+
+.news-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.news-card {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
 }
 
 .imagesection-content {
