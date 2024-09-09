@@ -554,51 +554,57 @@ color: #F0F0F0;
   width: 100%;
   height: 540px;
   background: 
-    linear-gradient(to right,rgb(197, 195, 195), transparent);
+    linear-gradient(to right,rgba(135, 221, 238, 0.559), transparent);
+    display: flex;
 
 }
-/* .subscribe-container {
+
+.howleftsection{
+  width: 60%;
+  height: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px;
-  background-color: white;
-  border-radius: 10px;
-  width: 80%;
-  margin: 50px auto;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 300px;
 }
 
-.content {
-  max-width: 60%;
+.howrightsection{
+  width: 40%;
+  height: 100%;
 }
 
-h1 {
-  font-size: 2.5rem;
-  color: #333;
+.howhead{
+  font-family: Cairo;
+font-size: 50px;
+font-weight: 700;
+line-height: 61.59px;
+text-align: left;
+
 }
 
-p {
-  font-size: 1.5rem;
-  color: #666;
-  margin: 10px 0;
+.howpara{
+  font-family: Cairo;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61.59px;
+  text-align: left;
+  
 }
 
-p span {
+.howpara span{
   color: orange;
 }
 
 .form-container {
   margin-top: 20px;
   display: flex;
-  gap: 10px;
 }
 
 input[type="email"] {
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 300px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;  width: 300px;
 }
 
 button {
@@ -606,25 +612,118 @@ button {
   background-color: #28a745;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #218838;
+.howleftsection img{
+  width: 200px;
+  height: 100%;
 }
 
-.characters {
-  max-width: 35%;
-}
-
-.characters img {
+.footer{
   width: 100%;
-  height: 150px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #043A53;
+}
+
+.footerupper{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 300px;
+  border-bottom: 1px solid grey;
+  align-items: center;
+}
+
+.footerimage{
+  width: 100px;
+  height: 100%;
+}
+
+.bookappoinmentbtnfooter{
+  width: 293px;
+  height: 45px;
+  border-radius: 45.29px;
+  color: black;
+  background-color: white;
+  border: none;
+  margin-left: 25px;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footermiddle {
+  color: #ffffff;
+  padding: 40px 300px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.contact-info {
+  font-size: 14px;
+}
+
+.contact-info a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #f0f0f0;
 }
 
 
- */
 
 
 
@@ -839,6 +938,73 @@ button:hover {
     line-height: 167.29px;
     text-align: center;
     color: #F0F0F0;
+}
+
+.howleftsection {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+.howcanihelpyou {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to right, rgba(135, 221, 238, 0.559), transparent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.howrightsection{
+  display: none;
+}
+.howhead {
+  font-family: Cairo;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 61.59px;
+  text-align: left;
+}
+
+.howpara {
+  font-family: Cairo;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 61.59px;
+  text-align: left;
+}
+
+
+.footer-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-column {
+  margin: 20px 0;
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #043A53;
+}
+
+.footerupper {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid grey;
+  align-items: center;
+  justify-content: space-around;
 }
   
 
