@@ -14,6 +14,30 @@
     <title>Document</title>
 </head>
 <body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <div class="logo">
+        <img src="./Assets/Logo.png" alt="Giss Hospital Logo">
+    </div>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Management Team</a></li>
+        <li><a href="#">Advisory Board</a></li>
+        <li><a href="#">Departments</a></li>
+        <li><a href="#">News & Events</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #050505;"></i>
+        </div>
+    </ul>
+    <div class="emergency-contact">
+        <img src="./Assets/ambulance 1.png" alt="Ambulance Icon">
+        <span>For Emergency Dial <br> <p style="color: black;">+91 1234567890</p></span>
+        <i class="fa-solid fa-bars fa-2xl" style="color: #030303;"></i>    </div>
+   
+</nav>
     <!-- Landing Section -->
     <div class="landing-section">
         <div class="writing-content">
@@ -21,7 +45,7 @@
             <p class="paradescrption">To undertake specialized and holistic healthcare services of world standard <br> and to provide them to all sections To undertake specialized and holistic <br> healthcare services of world standard</p>
             <div class="lamding-buttons">
                 <button class="learnmorebtn">Learn More <i class="fa-solid fa-arrow-right-long" style="color: #ffffff;margin-left: 7px;"></i></button>
-                <button class="bookappoinmentbtn">Book an Appointment</button>
+                <button class="bookappoinmentbtnfst">Book an Appointment</button>
             </div>
         </div>
         <img class="landimag" src="./Assets/Landingpageimag.png" alt="">
@@ -90,8 +114,8 @@
 
 
      <!-- depsection -->
-
-     <!-- <div class="depsection">
+<!-- 
+      <div class="depsection">
 
       <div class="depcontainer">
         <h2 class="dephead">Giss Hospital</h2>
@@ -128,7 +152,7 @@
       </div>
 
 
-     </div> -->
+     </div>
 
      <div class="imagesectionnurse">
       <div class="imagesection-content">
@@ -190,7 +214,7 @@
         </div>
     </div>
     </div>
-  </div>
+  </div>-->
 
 
   <!-- how can i help you section -->
@@ -269,6 +293,10 @@
       </div>
   </div>
 
+  <div class="footerdown">
+    <h2>© Giss Hospital. 2024 all rights reserved</h2>
+  </div>
+
   </section>
 
   
@@ -277,7 +305,13 @@
 
      
  
-
+  <script>
+    document.querySelector('.fa-bars').addEventListener('click', function() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+    });
+  </script>
+  
     
 
     
